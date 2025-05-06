@@ -24,8 +24,8 @@
             position: relative;
             overflow: hidden;
             background-color: transparent;
-            border: 2px solid #6f42c1;
-            color: #6f42c1;
+            border: 2px solidrgb(255, 198, 92);
+            color:rgb(255, 206, 108);
             transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
         }
 
@@ -36,14 +36,14 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background-color: #6f42c1;
+            background-color:rgb(255, 206, 108);
             transition: left 0.3s ease-in-out;
             z-index: 0;
         }
 
         .btn-purple:hover {
             color: white;
-            border-color: #6f42c1; 
+            border-color:rgb(255, 206, 108);
         }
 
         .btn-purple:hover::before {
